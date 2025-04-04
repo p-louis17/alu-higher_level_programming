@@ -7,7 +7,5 @@ def uppercase(str):
             result += chr(ord(ch) - 32)
         else:
             result += ch
-    print("{}".format(result))
+    print("{}".format(result), end="")
 
-
-uppercase("Best School 98 Battery street")
